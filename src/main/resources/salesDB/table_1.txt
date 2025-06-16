@@ -1,0 +1,3 @@
+name|age|gender
+abhishek|24|male
+rahul|25|male

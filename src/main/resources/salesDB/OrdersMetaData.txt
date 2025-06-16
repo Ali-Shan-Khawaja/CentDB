@@ -1,0 +1,4 @@
+column_name|data_type|size|constraint
+OrderID|INT|null|PRIMARY KEY
+OrderNumber|INT|null|null
+PersonID|INT|null|FOREIGN KEY Persons PersonID

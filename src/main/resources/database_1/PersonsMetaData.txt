@@ -1,0 +1,4 @@
+coulmn_name|data_type|size|constraint
+PersonID|INT|null|null
+LastName|VARCHAR|255|null
+FirstName|VARCHAR|255|null

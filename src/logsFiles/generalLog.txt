@@ -1,0 +1,42 @@
+query|salesDB|UPDATE Orders SET OrderNumber = 11 WHERE OrderID = 2|92|
+query|salesDB|UPDATE Orders SET OrderNumber = 11 WHERE OrderID = 2|272|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (1, 11, 2)|25|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (3, 'Patel', 'Dhruv')|4|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (3, 11, 3)|3|
+query|salesDB|UPDATE Orders SET OrderNumber = 12 WHERE OrderNumber = 11|5|
+query|salesDB|UPDATE Orders SET OrderNumber = 13 WHERE OrderID = 2|3|
+query|salesDB|UPDATE Orders SET OrderID = 1 WHERE OrderID = 2|3|
+query|salesDB|DELETE FROM Orders WHERE PersonID = 2|3|
+query|salesDB|Orders|-1|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (4, 11, 2)|25|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (4, 'Parker', 'Peter')|20|
+query|salesDB|UPDATE Persons SET FirstName = 'Abhishek' WHERE PersonID = 2|7|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (1, 11, 2)|9|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (3, 'Patel', 'Dhruv')|4|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (3, 11, 3)|3|
+query|salesDB|UPDATE Orders SET OrderNumber = 12 WHERE OrderNumber = 11|3|
+query|salesDB|UPDATE Orders SET OrderNumber = 13 WHERE OrderID = 2|4|
+query|salesDB|DELETE FROM Orders WHERE PersonID = 2|1|
+query|salesDB|Orders|-1|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (4, 'Parker', 'Peter')|26|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (1, 11, 2)|8|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (3, 'Patel', 'Dhruv')|3|
+query|salesDB|INSERT INTO Orders (OrderID, OrderNumber, PersonID) VALUES (3, 11, 3)|2|
+query|salesDB|UPDATE Orders SET OrderNumber = 12 WHERE OrderNumber = 11|4|
+query|salesDB|UPDATE Orders SET OrderNumber = 13 WHERE OrderID = 2|1|
+query|salesDB|DELETE FROM Orders WHERE PersonID = 2|1|
+query|salesDB|Orders|-1|
+query|salesDB|INSERT INTO Persons (PersonID, LastName, FirstName) VALUES (4, 'Parker', 'Peter')|24|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|
+state|salesDB|Orders|1|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|
+state|salesDB|Orders|1|
+state|salesDB|Persons|1|

@@ -1,0 +1,4 @@
+coulmn_name|data_type|size|constraint
+ProductID|INT|null|null
+ProductName|VARCHAR|255|null
+Price|INT|null|null
