@@ -1,0 +1,5 @@
+column_name|data_type|size|constraint
+id|INT|null|PRIMARY KEY
+name|VARCHAR|100|null
+age|INT|null|null
+gender|VARCHAR|10|null
